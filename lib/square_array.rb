@@ -4,6 +4,6 @@ def square_array(array)
   while i > 0 do
     i -= 1
     new_array.push(array[i]**2)
-  return new_array
+  return new_array.reverse()
 end
 end
